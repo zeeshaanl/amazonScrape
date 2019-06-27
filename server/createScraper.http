@@ -1,0 +1,10 @@
+POST http://localhost:3000/createScraper HTTP/1.1
+content-type: application/json
+
+{
+    "countryCode": "de",
+    "asin": "B07MFBPK6J",
+    "email": "zl2048@protonmail.com"
+}
+
+###
