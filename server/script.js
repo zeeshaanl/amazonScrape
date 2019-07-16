@@ -22,7 +22,7 @@ let originalPrice = 0;
 
 const notifyMe = (price) => {
   bot.sendMessage(chatId, `The new price is ${price}`);
-}
+};
 
 const main = async (req, res) => {
   try {
@@ -54,7 +54,7 @@ const startCron = () => {
 
     main();
   })
-}
+};
 
 process.stdin.resume();
 
