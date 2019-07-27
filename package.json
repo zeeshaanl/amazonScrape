@@ -1,0 +1,10 @@
+{
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "amazon-scrape",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
